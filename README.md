@@ -17,8 +17,8 @@ A simple python command-line interface (CLI) for querying Hyperliquid API endpoi
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/hypurscope/HypurScope.git
-cd HypurScope
+git clone https://github.com/hypurscope/hypurscope_cli_app.git
+cd hypurscope_cli_app
 ```
 
 ### 2. Prerequisites
