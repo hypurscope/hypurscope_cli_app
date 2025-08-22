@@ -63,4 +63,15 @@ chmod +x hypur_scope.py
 ```bash
 ./hypur_scope.py get_tokenholders HYPE
 ```
- 
+
+### 3. Get Defi info
+- retrieve Hyperliquid Defi information
+```bash
+./hypur_scope.py defi
+```
+
+### 4. Get spot USDC info
+- retrieve hyperliquid spot USDC information
+```bash
+./hypur_scope.py spot
+```
