@@ -1,4 +1,4 @@
-#HypurScope
+# HypurScope
 
 A simple python command-line interface (CLI) for querying Hyperliquid API endpoints. It provides access to user wallet data, token holders, Defi information, and spot USDC stats.
 
