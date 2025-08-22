@@ -15,4 +15,52 @@ A simple python command-line interface (CLI) for querying Hyperliquid API endpoi
 ## Installation
 
 
-### 1. clone repo
+### 1. Clone the repo
+```bash
+git clone https://github.com/hypurscope/HypurScope.git
+cd HypurScope
+```
+
+### 2. Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
+
+### 3. Install dependencies
+```bash
+pip install -r requirements
+```
+
+### 4. Make the script executable
+```bash
+chmod +x hypur_scope.py
+```
+
+## Usage
+
+### Get general help:
+```bash
+./hypur_scope.py --help
+```
+
+## Subcommands & Examples
+
+### 1. Get user wallet data
+- Fetch wallet data with a start time and optional end time.
+```bash
+./hypur_scope.py get_userdata <wallet_id> <start_time> [--end_time <end_time>]
+```
+- example
+```bash
+./hypur_scope.py get_userdata 0xfefefefefefefefefefefefefefefefefefefefe "2025-01-01 00:00" --end_time "2025-02-01 00:00"
+```
+
+### 2. Get token holders
+- return holders of a token
+```bash
+./hypur_scope.py get_tokenholders <token_name>
+```
+- example
+```bash
+./hypur_scope.py get_tokenholders HYPE
+```
+ 
