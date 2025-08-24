@@ -3,7 +3,7 @@ import argparse
 import sys
 import requests
 
-url = "https://hyper-dev-p1ob.onrender.com/api"
+url = "https://hyper-e1nj.onrender.com/api"
 
 def getUserData(id: str, start: str, end: str = None):
     params = {"start_time": start}
